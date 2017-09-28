@@ -1,12 +1,10 @@
-/*
- * Os teste serão executados, baseados nas operações da estrutura de dados: PILHA.
- */
+package io.ifrn.tads.calculadora;
 
 import org.junit.Test;
 import static org.junit.Assert.*;
 import org.junit.Before;
 
-public class CalculadoraPosFixaTeste {
+public class CalculadoraPosFixaTest {
 
     CalculadoraPosFixa cpf;
 

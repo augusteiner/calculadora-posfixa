@@ -1,4 +1,5 @@
 /nbproject/*
 /build/*
-/*.xml
-/*.mf
+/target/*
+.classpath
+.project
