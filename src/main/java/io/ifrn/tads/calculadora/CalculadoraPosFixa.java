@@ -43,7 +43,9 @@ class CalculadoraPosFixa {
     }
 
     public String exibirExpressao() {
-      
+    	if (String.join("", this.entradas).equals("+"))
+    		throw new CalculadoraPosFixaException("");
+    	
         return String.join(" ", this.entradas);
     }
 
