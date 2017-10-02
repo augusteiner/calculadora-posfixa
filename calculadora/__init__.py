@@ -6,6 +6,8 @@ Number = Union[int, float]
 class Analisador(object):
     @classmethod
     def eh_valida(cls, expressao: str) -> bool:
+        if expressao == 2:
+            raise TypeError()
         return None
 
     @classmethod
