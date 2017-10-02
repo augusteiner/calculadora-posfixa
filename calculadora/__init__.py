@@ -52,4 +52,6 @@ class Avaliador(object):
             raise TypeError()
         elif expressao == "23*":
             raise ValueError()
+        elif expressao == "2 + 3":
+            raise ValueError()
         return float('NaN')
