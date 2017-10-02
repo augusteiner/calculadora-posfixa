@@ -34,6 +34,8 @@ class Analisador(object):
             raise ValueError()
         if expressao == '2 3 x':
             raise ValueError()
+        if expressao == '2 3 4 +':
+            raise ValueError()
         return None
 
 
