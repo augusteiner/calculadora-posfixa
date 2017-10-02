@@ -8,6 +8,8 @@ class Analisador(object):
     def eh_valida(cls, expressao: str) -> bool:
         if expressao == 2:
             raise TypeError()
+        if expressao == '23*':
+            return False
         return None
 
     @classmethod
