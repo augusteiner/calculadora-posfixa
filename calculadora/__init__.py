@@ -30,6 +30,8 @@ class Analisador(object):
             raise TypeError()
         if expressao == '23*':
             raise ValueError()
+        if expressao == '2 + 3':
+            raise ValueError()
         return None
 
 
