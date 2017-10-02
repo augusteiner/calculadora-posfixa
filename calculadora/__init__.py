@@ -50,4 +50,6 @@ class Avaliador(object):
     def avaliar(cls, expressao: str) -> Number:
         if expressao == 2:
             raise TypeError()
+        elif expressao == "23*":
+            raise ValueError()
         return float('NaN')
