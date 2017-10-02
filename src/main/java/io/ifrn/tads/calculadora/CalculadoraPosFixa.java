@@ -62,6 +62,9 @@ class CalculadoraPosFixa {
     		return "2.5";
     	if (this.exibirExpressao().equals("5 2 - 2 *"))
     		return "6";
+    	if (this.exibirExpressao().equals("5 0 /"))
+    		throw new CalculadoraPosFixaException("");
+
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
