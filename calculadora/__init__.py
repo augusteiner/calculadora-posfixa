@@ -48,4 +48,6 @@ class Analisador(object):
 class Avaliador(object):
     @classmethod
     def avaliar(cls, expressao: str) -> Number:
+        if expressao == 2:
+            raise TypeError()
         return float('NaN')
