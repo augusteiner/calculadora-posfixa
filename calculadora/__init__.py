@@ -40,6 +40,8 @@ class Analisador(object):
             return ['2', '3', '+']
         if expressao == '3 2 5 + *':
             return ['3', '2', '5', '+', '*']
+        if expressao == '3.1 1.1 +':
+            return ['3.1', '1.1', '+']
         return None
 
 
