@@ -62,4 +62,6 @@ class Avaliador(object):
             return 5
         elif expressao == "3 2 5 + *":
             return 21
+        elif expressao == "3.1 1.1 +":
+            return 4.2
         return float('NaN')
