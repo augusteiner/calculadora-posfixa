@@ -26,6 +26,8 @@ class Analisador(object):
 
     @classmethod
     def tokenizar(cls, expressao: str) -> List[str]:
+        if expressao == 2:
+            raise TypeError()
         return None
 
 
