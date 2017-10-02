@@ -18,7 +18,7 @@ class CalculadoraPosFixa {
 			|| this.exibirExpressao().equals("5 2 +")
 			|| this.exibirExpressao().equals("5 2 -")
 			|| this.exibirExpressao().equals("5 2 /"))
-    		return 2;
+    		return 3;
         return this.entradas.size();
     }
 

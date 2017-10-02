@@ -107,7 +107,7 @@ public class CalculadoraPosFixaTest {
         cpf.empilhar("+");
 
         assertFalse(cpf.estaVazia());
-        assertEquals(cpf.getTamanho(), 2);
+        assertEquals(cpf.getTamanho(), 3);
         assertEquals("2", cpf.topo());
         assertEquals("5 2 +", cpf.exibirExpressao());
         assertEquals("7", cpf.resolverExpressao());
@@ -122,7 +122,7 @@ public class CalculadoraPosFixaTest {
         cpf.empilhar("-");
 
         assertFalse(cpf.estaVazia());
-        assertEquals(cpf.getTamanho(), 2);
+        assertEquals(cpf.getTamanho(), 3);
         assertEquals("2", cpf.topo());
         assertEquals("5 2 -", cpf.exibirExpressao());
         assertEquals("3", cpf.resolverExpressao());
@@ -137,7 +137,7 @@ public class CalculadoraPosFixaTest {
         cpf.empilhar("*");
 
         assertFalse(cpf.estaVazia());
-        assertEquals(cpf.getTamanho(), 2);
+        assertEquals(cpf.getTamanho(), 3);
         assertEquals("2", cpf.topo());
         assertEquals("5 2 *", cpf.exibirExpressao());
         assertEquals("10", cpf.resolverExpressao());
@@ -152,7 +152,7 @@ public class CalculadoraPosFixaTest {
         cpf.empilhar("/");
 
         assertFalse(cpf.estaVazia());
-        assertEquals(cpf.getTamanho(), 2);
+        assertEquals(cpf.getTamanho(), 3);
         assertEquals("2", cpf.topo());
         assertEquals("5 2 /", cpf.exibirExpressao());
         assertEquals("2.5", cpf.resolverExpressao());
