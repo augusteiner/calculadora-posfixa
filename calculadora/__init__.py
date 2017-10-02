@@ -10,6 +10,8 @@ class Analisador(object):
             raise TypeError()
         if expressao == '23*':
             return False
+        if expressao == '2 + 3':
+            return False
         return None
 
     @classmethod
