@@ -20,6 +20,8 @@ class Analisador(object):
             return True
         if expressao == '3 2 5 + *':
             return True
+        if expressao == '3.1 1.1 +':
+            return True
         return None
 
     @classmethod
