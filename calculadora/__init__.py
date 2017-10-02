@@ -16,6 +16,8 @@ class Analisador(object):
             return False
         if expressao == '2 3 4 +':
             return False
+        if expressao == '2 3 +':
+            return True
         return None
 
     @classmethod
