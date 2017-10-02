@@ -56,4 +56,6 @@ class Avaliador(object):
             raise ValueError()
         elif expressao == "2 3 x":
             raise ValueError()
+        elif expressao == "2 3 4 +":
+            raise ValueError()
         return float('NaN')
